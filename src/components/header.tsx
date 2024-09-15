@@ -7,7 +7,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="h-20 flex justify-between items-center fixed top-0 left-0 right-0">
+    <header className="h-20 flex justify-between items-center fixed top-0 left-0 right-0">
       <div className="w-48 flex justify-end items-end">
         <a href="#">
           <img src="/logo.svg" alt="logo" width="100" height="100" />
@@ -43,6 +43,6 @@ export default function Header() {
       >
         お問い合わせ
       </a>
-    </div>
+    </header>
   );
 }

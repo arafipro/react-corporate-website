@@ -1,3 +1,3 @@
 export default function Footer() {
-  return <div className="mt-auto">Footer</div>;
+  return <footer className="mt-auto">Footer</footer>;
 }
