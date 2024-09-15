@@ -7,7 +7,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="h-20 flex justify-between items-center fixed top-0 left-0 right-0">
+    <header className="h-20 flex justify-between items-center fixed top-0 left-0 right-0 bg-[#F5F5F5]/80">
       <div className="w-48 flex justify-end items-end">
         <a href="#">
           <img src="/logo.svg" alt="logo" width="100" height="100" />
@@ -21,7 +21,7 @@ export default function Header() {
       </button>
       <ul
         className={`lg:flex ${
-          isMenuOpen ? "flex text-center text-xl" : "hidden"
+          isMenuOpen ? "flex text-center text-xl bg-[#F5F5F5]/80" : "hidden"
         } flex-col lg:flex-row absolute lg:relative top-20 lg:top-0 left-0 w-full lg:w-auto bg-white lg:bg-transparent`}
       >
         <li className="p-4">
