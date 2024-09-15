@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="lg:h-56 h-64 bg-white pl-4 lg:pl-0">
-			<main className="mx-auto container">
+    <footer className="lg:h-56 h-64 bg-white">
+			<main className="max-w-5xl mx-auto px-4">
         <div className="lg:flex justify-between items-center pt-10">
           <a href="#">
             <img src="/logo.svg" alt="logo" width="100" height="100" />
