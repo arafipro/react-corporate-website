@@ -1,5 +1,16 @@
+import Footer from "./components/footer";
+import Header from "./components/header";
+import Hero from "./components/hero";
+
 function App() {
-  return <h1 className="flex justify-center">Vite + React</h1>;
+  return (
+    <>
+      <Header />
+      <Hero />
+      <main className="container mx-auto min-h-dvh">Main</main>
+      <Footer />
+    </>
+  );
 }
 
 export default App;
