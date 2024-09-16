@@ -1,5 +1,6 @@
 import About from "./components/about";
 import Business from "./components/business";
+import Company from "./components/company";
 import Footer from "./components/footer";
 import Header from "./components/header";
 import Hero from "./components/hero";
@@ -13,6 +14,7 @@ function App() {
       <News />
       <About />
       <Business />
+      <Company />
       <Footer />
     </>
   );
