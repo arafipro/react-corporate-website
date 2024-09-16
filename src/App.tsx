@@ -1,3 +1,4 @@
+import About from "./components/about";
 import Footer from "./components/footer";
 import Header from "./components/header";
 import Hero from "./components/hero";
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Hero />
       <News />
+      <About />
       <Footer />
     </>
   );
