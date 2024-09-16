@@ -7,7 +7,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="h-20 flex justify-between items-center fixed top-0 left-0 right-0 bg-gray-100/80">
+    <header className="h-20 flex justify-between items-center fixed top-0 left-0 right-0 bg-gray-100/80 z-10">
       <h1 className="w-48 lg:flex justify-end items-end pl-4">
         <a href="#">
           <img src="/logo.svg" alt="logo" width="100" height="100" />
