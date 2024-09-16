@@ -15,7 +15,7 @@ export default function NewsContent({
     <div
       className={twMerge(
         `${className}`,
-        "flex flex-col justify-center first:pl-0 space-y-4 lg:w-1/3 h-20"
+        "flex flex-col justify-center first:pl-0 space-y-4 h-20"
       )}
     >
       <div className="flex space-x-2.5">

@@ -10,19 +10,19 @@ export default function News() {
           date="2022.01.01"
           tag="news"
           title="タイトルタイトルタイトルタイトル"
-          className="lg:border-r-2 border-black last:border-r-0"
+          className="lg:border-r-2 border-black last:border-r-0 lg:w-1/3"
         />
         <NewsContent
           date="2022.01.01"
           tag="press"
           title="タイトルタイトルタイトルタイトル"
-          className="lg:border-r-2 border-black last:border-r-0"
+          className="lg:border-r-2 border-black last:border-r-0 lg:w-1/3"
         />
         <NewsContent
           date="2022.01.01"
           tag="news"
           title="タイトルタイトルタイトルタイトル"
-          className="lg:border-r-2 border-black last:border-r-0"
+          className="lg:border-r-2 border-black last:border-r-0 lg:w-1/3"
         />
       </div>
     </div>
