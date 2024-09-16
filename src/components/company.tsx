@@ -11,13 +11,13 @@ export default function Company() {
             <td width="80px" className="lg:h-10">
               会社名
             </td>
-            <td className="mb-5">ウェブエンターテイメントデザイン株式会社</td>
+            <td className="mb-5">ＸＸＸＸＸＸ株式会社</td>
           </tr>
           <tr className="flex flex-col lg:block">
             <td width="80px" className="lg:h-10">
               所在地
             </td>
-            <td className="mb-5">東京都渋谷区桜丘町99-9 West Building 3F</td>
+            <td className="mb-5">東京都ＸＸ区ＸＸ町1-1</td>
           </tr>
           <tr className="flex flex-col lg:block">
             <td width="80px" className="lg:h-10">
