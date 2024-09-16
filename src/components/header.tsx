@@ -8,11 +8,11 @@ export default function Header() {
 
   return (
     <header className="h-20 flex justify-between items-center fixed top-0 left-0 right-0 bg-[#F5F5F5]/80">
-      <div className="w-48 flex justify-end items-end">
+      <h1 className="w-48 flex justify-end items-end">
         <a href="#">
           <img src="/logo.svg" alt="logo" width="100" height="100" />
         </a>
-      </div>
+      </h1>
       <button
         className="lg:hidden z-10 mr-8 text-3xl flex justify-center items-center h-full"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
