@@ -3,7 +3,7 @@ import SectionTitle from "./ui/section-title";
 
 export default function Company() {
   return (
-    <div className="lg:relative max-w-5xl mx-auto px-4 lg:mb-32">
+    <div id="company" className="lg:relative max-w-5xl mx-auto px-4 lg:mb-32">
       <div className="bg-white lg:max-w-xl lg:py-24 py-10 lg:px-16 px-4 lg:mt-32 mt-20 h-full">
         <SectionTitle title="company" subTitle="会社情報" />
         <table className="lg:mt-14 mt-8 text-sm font-light mb-10">

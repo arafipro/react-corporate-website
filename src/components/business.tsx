@@ -7,7 +7,7 @@ import SectionTitle from "./ui/section-title";
 
 export default function Business() {
   return (
-    <div className="max-w-5xl mx-auto mt-32 px-4">
+    <div id="business" className="max-w-5xl mx-auto px-4 pt-32">
       <SectionTitle title="business" subTitle="事業内容" />
       <div className="lg:grid grid-cols-2 gap-16 lg:mt-12 mt-8 space-y-8">
         <div className="lg:mt-32 space-y-8">

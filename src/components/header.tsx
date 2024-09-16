@@ -25,16 +25,16 @@ export default function Header() {
         } flex-col lg:flex-row absolute lg:relative top-20 lg:top-0 left-0 w-full lg:w-auto bg-white lg:bg-transparent`}
       >
         <li className="p-4">
-          <MenuLink href="/news">NEWS</MenuLink>
+          <MenuLink href="/#news">NEWS</MenuLink>
         </li>
         <li className="p-4">
-          <MenuLink href="#">ABOUT</MenuLink>
+          <MenuLink href="/#about">ABOUT</MenuLink>
         </li>
         <li className="p-4">
-          <MenuLink href="#">BUSINESS</MenuLink>
+          <MenuLink href="/#business">BUSINESS</MenuLink>
         </li>
         <li className="p-4">
-          <MenuLink href="#">COMPANY</MenuLink>
+          <MenuLink href="/#company">COMPANY</MenuLink>
         </li>
       </ul>
       <a
