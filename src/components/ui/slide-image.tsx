@@ -11,7 +11,7 @@ export default function SlideImage({
     <div className="relative">
       <img src={imageUrl} alt={alt} className="w-full h-screen object-cover" />
       {title ? (
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white/80 text-5xl p-12">
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white/80 lg:text-5xl text-2xl lg:p-12 p-6">
           {title}
         </div>
       ) : null}
