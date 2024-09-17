@@ -22,7 +22,7 @@ export default function Header() {
       <ul
         className={`lg:flex ${
           isMenuOpen ? "flex text-center text-xl bg-gray-100/80" : "hidden"
-        } flex-col lg:flex-row absolute lg:relative top-20 lg:top-0 left-0 w-full lg:w-auto bg-white lg:bg-transparent`}
+        } flex-col lg:flex-row absolute lg:relative top-20 lg:top-0 left-0 w-full lg:w-auto bg-gray-100/80 lg:bg-transparent`}
       >
         <li className="p-4">
           <MenuLink href="/#news">NEWS</MenuLink>
