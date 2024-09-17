@@ -3,14 +3,16 @@ import Business from "./components/business";
 import Company from "./components/company";
 import Footer from "./components/footer";
 import Header from "./components/header";
-import Hero from "./components/hero";
+// import Hero from "./components/hero";
 import News from "./components/news";
+import SlideHero from "./components/slide-hero";
 
 function App() {
   return (
     <>
       <Header />
-      <Hero />
+      {/* <Hero /> */}
+      <SlideHero />
       <News />
       <About />
       <Business />
